@@ -1,0 +1,22 @@
+# Case Study #1 - Danny's Diner
+
+## Introduction
+In early 2021, Danny followed his passion for Japanese cuisine and opened "Danny's Diner," a cozy restaurant offering sushi, curry, and ramen. However, lacking expertise in data analysis, the restaurant struggled to leverage the basic data collected during its initial months to make informed business decisions. Danny's Diner is seeking assistance in using this data effectively to keep the restaurant thriving.
+
+## Problem Statement
+Danny aims to utilize customer data to gain valuable insights into their visiting patterns, spending habits, and favorite menu items. By establishing a deeper connection with his customers, he can provide a more personalized experience for his loyal patrons. He plans to use these insights to make informed decisions about expanding the existing customer loyalty program. Additionally, Danny seeks assistance in generating basic datasets for his team to inspect the data conveniently, without requiring SQL expertise. Due to privacy concerns, he has shared a sample of his overall customer data, hoping it will be sufficient for you to create fully functional SQL queries to address his questions.
+
+## Entity Relationship Diagram
+[Insert image of the ERD here]
+*Note: Include the ERD image in the repository and link it here using Markdown, like so:*
+![Entity Relationship Diagram](/path_to_image_in_your_repository/ERD.png)
+
+## Case Study Questions & Solutions
+
+### Question 1: What is the total amount each customer spent at the restaurant?
+```sql
+SELECT S.customer_id, SUM(M.price) AS total_amnt
+FROM sales S
+JOIN menu M ON S.product_id = M.product_id
+GROUP BY S.customer_id
+ORDER BY customer_id;
