@@ -257,27 +257,27 @@ ORDER BY s.customer_id;
 
 ### Key Insights
 
-## Customer Spending
+### Customer Spending
 
 There's a big difference in how much each customer spends at Danny's Diner. Some customers spend a lot more than others, which shows we might have some really loyal customers.
 
-## Customer Visits
+### Customer Visits
 
 How often customers come to the diner varies too. Some come a lot, while others only a few times.
 
-## First Purchases
+### First Purchases
 
 Knowing what items new customers buy first helps us figure out which dishes attract people to Danny’s Diner.
 
-# Most Popular Item
+### Most Popular Item
 
 Finding out which item is ordered the most helps Danny manage his stock better and focus on what customers like most.
 
-# Personalized Recommendations
+### Personalized Recommendations
 
 If we know which items are favorites for each customer, Danny can suggest dishes they might like, making their visits even better.
 
-# Additional Insights
+### Additional Insights
 
 - Customer Loyalty: Looking at what customers buy before and after they join our loyalty program shows us how well the program is working.
 - Bonus Points for New Members: Giving double points in the first week encourages new loyalty members to spend more.
