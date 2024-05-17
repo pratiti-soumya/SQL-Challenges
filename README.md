@@ -14,7 +14,7 @@ This repository contains a collection of SQL scripts and projects that I have wo
 - Calculated the total amount of debt owed by various countries.
 - Identified the country with the highest debt.
 - Analyzed average debt across different indicators.
-- [(World Populations Case Study)](https://github.com/pratiti-soumya/SQL-Challenges/tree/main/world-populations)
+- [World Populations Case Study](https://github.com/pratiti-soumya/SQL-Challenges/tree/main/world-populations)
 
 ### 2. Danny's Diner Case Study
 **Description**: Analyzing customer spending patterns and menu item popularity at Danny's Diner.
@@ -31,6 +31,21 @@ This repository contains a collection of SQL scripts and projects that I have wo
 - Identified common themes and keywords in special instructions.
 - Provided recommendations for improving customer satisfaction based on the analysis.
 - [Davies Burger Case Study](https://github.com/pratiti-soumya/SQL-Challenges/tree/main/daviesburger)
+
+### 4. International Debt Statistics: Analyzing International Debt Data
+
+**Description**: This project focuses on analyzing international debt data collected by The World Bank. The dataset contains information about the amount of debt (in USD) owed by developing countries across several categories. The goal of this analysis is to find answers to various questions, such as:
+
+- What is the total amount of debt owed by the countries listed in the dataset?
+- Which country owns the maximum amount of debt, and what does that amount look like?
+- What is the average amount of debt owed by countries across different debt indicators?
+
+**Dataset** 
+The dataset consists of two tables:
+- `countries`: Contains information about different countries and their respective continents.
+- `international_debt`: Contains information about the amount of debt owed by developing countries in various categories.
+
+- [International Debt Statistics](https://github.com/pratiti-soumya/SQL-Challenges/blob/main/International-Debt-Statistics/notebook.ipynb)
 
 ## How to Use This Repository
 
