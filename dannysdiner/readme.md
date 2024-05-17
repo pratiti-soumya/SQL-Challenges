@@ -12,7 +12,8 @@ Danny aims to utilize customer data to gain valuable insights into their visitin
 - Members
 
 ## Entity Relationship Diagram
-![Entity Relationship Diagram](/path_to_image_in_your_repository/ERD.png)
+![dd_erd](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/edcff625-ea21-4400-b41f-bc76ccf5b975)
+
 
 ## Case Study Questions & Solutions
 
@@ -32,7 +33,7 @@ ORDER BY customer_id;
 - Finally, the results are sorted in ascending order based on the customer_id.
 
 ## Output
-![q1](/path_to_image_in_your_repository/q1.png)
+![dd1](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/2d7d230b-7c05-4dca-b841-450c3ecaafef)
 
 ### 2. How many days has each customer visited the restaurant?
 ```sql
@@ -47,7 +48,7 @@ GROUP BY customer_id;
 - Finally, the query presents the total number of unique order dates as No_Days for each customer.
 
 ## Output
-![q2](/path_to_image_in_your_repository/q2.png)
+![dd2](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/d9392e80-ebb5-4334-a41b-2199944d0584)
 
 ### 3. What was the first item from the menu purchased by each customer?
 ```sql
@@ -70,7 +71,7 @@ WHERE rn = 1;
 - As a result, the query returns the first purchased product for each customer.
 
 ## Output
-![q3](/path_to_image_in_your_repository/q3.png)
+![dd3](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/2444a5ee-0291-4fc0-a583-a4dc5a36ba3d)
 
 ### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 ```sql
@@ -90,7 +91,7 @@ LIMIT 1;
 - The LIMIT 1 clause is used to restrict the result to only one row, effectively showing the most ordered product.
 
 ## Output
-![q4](/path_to_image_in_your_repository/q4.png)
+![dd4](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/56365618-aaed-48e4-b7d6-c2412213973f)
 
 ### 5. Which item was the most popular for each customer?
 ```sql
@@ -116,7 +117,7 @@ WHERE rnk = 1;
 - As a result, the query returns the customer's ID, the most ordered product, and the number of times it was ordered by that customer.
 
 ## Output
-![q5](/path_to_image_in_your_repository/q5.png)
+![dd5](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/fc8335c1-7bde-4331-ba0a-2c4be704accb)
 
 ### 6. Which item was purchased first by the customer after they became a member?
 ```sql
@@ -140,7 +141,7 @@ ORDER BY s.customer_id;
 - As a result, the query returns a unique list of customer_id along with the first product_name they ordered after joining as a member.
 
 ## Output
-![q6](/path_to_image_in_your_repository/q6.png)
+![dd6](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/32fd3723-2653-46e3-9ddc-6d9e889e118c)
 
 ### 7. Which item was purchased just before the customer became a member?
 ```sql
@@ -164,7 +165,7 @@ ORDER BY s.customer_id;
 - As a result, the query returns a unique list of customer_id along with the first product_name they ordered before joining as a member.
 
 ## Output
-![q7](/path_to_image_in_your_repository/q7.png)
+![dd7](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/9299599a-4791-4a82-ad40-681d6fd72bfb)
 
 ### 8. What is the total items and amount spent for each member before they became a member?
 ```sql
@@ -189,6 +190,7 @@ ORDER BY S.customer_id;
 - Finally, the results are sorted in ascending order based on the customer_id.
 
 ## Output
+![dd8](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/9c3e3e14-2bd3-4274-9618-9b6bb27bb3eb)
 
 ### 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 ```sql
@@ -214,6 +216,7 @@ ORDER BY s.customer_id;
 - Finally, the results are sorted in ascending order based on the customer_id.
 
 ## Output
+![dd9](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/a533e687-c68a-446b-8d13-2d7fe09363cf)
 
 ### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 ```sql
@@ -254,6 +257,7 @@ ORDER BY s.customer_id;
 - Finally, the results are sorted in ascending order based on the customer_id.
 
 ## Output
+![dd10](https://github.com/pratiti-soumya/SQL-Challenges/assets/65897509/ced58da8-76c6-4c36-a283-99dc0517683e)
 
 ### Key Insights
 
