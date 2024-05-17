@@ -10,6 +10,7 @@ This repository contains a collection of SQL scripts and projects that I have wo
 
 ### 1. World Populations Analysis
 **Description**: Analyzing international debt data collected by The World Bank to extract meaningful insights.
+
 **Highlights**:
 - Calculated the total amount of debt owed by various countries.
 - Identified the country with the highest debt.
@@ -18,6 +19,7 @@ This repository contains a collection of SQL scripts and projects that I have wo
 
 ### 2. Danny's Diner Case Study
 **Description**: Analyzing customer spending patterns and menu item popularity at Danny's Diner.
+
 **Highlights**:
 - Determined the total amount spent by each customer.
 - Identified the most popular items on the menu.
@@ -26,6 +28,7 @@ This repository contains a collection of SQL scripts and projects that I have wo
 
 ### 3. Davie's Burgers Analysis
 **Description**: Investigating customer order patterns and special instructions at Davie's Burgers.
+
 **Highlights**:
 - Extracted and analyzed special instructions left by customers.
 - Identified common themes and keywords in special instructions.
