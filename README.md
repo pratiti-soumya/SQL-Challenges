@@ -45,7 +45,7 @@ The dataset consists of two tables:
 - `countries`: Contains information about different countries and their respective continents.
 - `international_debt`: Contains information about the amount of debt owed by developing countries in various categories.
 
-- [International Debt Statistics](https://github.com/pratiti-soumya/SQL-Challenges/blob/main/International-Debt-Statistics/notebook.ipynb)
+- [International Debt Statistics Case Study](https://github.com/pratiti-soumya/SQL-Challenges/blob/main/International-Debt-Statistics/notebook.ipynb)
 
 ## How to Use This Repository
 
