@@ -43,7 +43,8 @@ This repository contains a collection of SQL scripts and projects that I have wo
 - Which country owns the maximum amount of debt, and what does that amount look like?
 - What is the average amount of debt owed by countries across different debt indicators?
 
-**Dataset** 
+**Dataset** :
+
 The dataset consists of two tables:
 - `countries`: Contains information about different countries and their respective continents.
 - `international_debt`: Contains information about the amount of debt owed by developing countries in various categories.
