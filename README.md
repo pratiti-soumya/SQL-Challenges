@@ -9,12 +9,17 @@ This repository contains a collection of SQL scripts and projects that I have wo
 ## Projects and Challenges
 
 ### 1. World Populations Analysis
-**Description**: Analyzing international debt data collected by The World Bank to extract meaningful insights.
-
-**Highlights**:
-- Calculated the total amount of debt owed by various countries.
-- Identified the country with the highest debt.
-- Analyzed average debt across different indicators.
+**Description**: This case study focuses on analyzing global population data by continent and country using SQL queries. The aim of this project is to answer questions such as-
+- Number of African Countries
+- Population of Oceania in 2005
+- Average Population of South America in 2003
+- Smallest Population in 2007
+- Average Population of Countries
+- Countries with 'The' in Their Name
+- Total Population by Continent in 2010
+  
+**Dataset**:
+- The dataset consists of two tables: `countries`, which contains information about different countries and their respective continents, and `population_years`, which records the population of each country for various years.
 - [World Populations Case Study](https://github.com/pratiti-soumya/SQL-Challenges/tree/main/world-populations)
 
 ### 2. Danny's Diner Case Study
